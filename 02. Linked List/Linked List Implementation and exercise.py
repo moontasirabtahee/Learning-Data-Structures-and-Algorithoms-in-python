@@ -43,7 +43,7 @@ class Linkedlist:
 
     def print(self):
         if self.head is None:
-            print("Linked List is Empty")
+            print("02. Linked List is Empty")
             return
         else:
             counter = self.head

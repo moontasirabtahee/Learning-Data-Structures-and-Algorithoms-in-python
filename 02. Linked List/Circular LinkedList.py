@@ -85,7 +85,7 @@ class CircularLinkedList:
 
     def remove_begin(self):
         if self.head is None:
-            print("ERROR!! Empty Singly Linked List")
+            print("ERROR!! Empty Singly 02. Linked List")
         else:
             counter = self.head
             while counter.next is not self.head:

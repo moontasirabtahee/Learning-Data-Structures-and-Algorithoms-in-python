@@ -8,7 +8,7 @@ class priorityQueue:
     maxSize = 0
     size = 0
     def __init__(self,maxSize = 5):
-        print("This is Priority Queue Class")
+        print("This is Priority 04. Queue Class")
         print("This class have 4 method\n1.enqueue\n2.dequeue\n3.isfull\n4.isempty")
         priorityQueue.maxSize = maxSize
         self.queueList = list()
@@ -16,7 +16,7 @@ class priorityQueue:
     def enqueue(self,data,priority):
         if priorityQueue.size == priorityQueue.maxSize:
             print(priorityQueue.size)
-            print("###Queue is full",data,'can not be in this Queue###')
+            print("###04. Queue is full",data,'can not be in this 04. Queue###')
         else:
             x=(priority, data)
             self.queueList.append(x)
@@ -26,7 +26,7 @@ class priorityQueue:
 
     def dequeue(self):
         if self.isempty():
-            return("NO ELEMENT in the Queue")
+            return("NO ELEMENT in the 04. Queue")
         else:
             max = 0
             for i in range(len(self.queueList)):
@@ -42,10 +42,10 @@ class priorityQueue:
 
     def isfull(self):
         if priorityQueue.size == priorityQueue.maxSize:
-            print("This Queue is full")
+            print("This 04. Queue is full")
         else:
             x = priorityQueue.maxSize - priorityQueue.size
-            print("This Queue is not Full")
+            print("This 04. Queue is not Full")
             print(f"You have {x} space(s)")
 
 

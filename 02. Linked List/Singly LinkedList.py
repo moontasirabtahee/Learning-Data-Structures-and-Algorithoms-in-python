@@ -66,7 +66,7 @@ class SinglyLinkedList:
 
     def remove_begin(self):
         if self.head is None:
-            print("ERROR!! Empty Singly Linked List")
+            print("ERROR!! Empty Singly 02. Linked List")
         else:
             self.head = self.head.next
     def remove_end(self):
@@ -109,7 +109,7 @@ class SinglyLinkedList:
                 counter = counter.next
             print()
         else:
-            print("Empty Linked List")
+            print("Empty 02. Linked List")
 
 
 

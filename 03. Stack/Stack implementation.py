@@ -10,7 +10,7 @@ class Stack:
     size = 0
     def __init__(self):
         self.stackList = []
-        print("This is a Stack data Structure implemented with List")
+        print("This is a 03. Stack data Structure implemented with List")
         print("This class have 4 method\n1.push\n2.pop\n3.peek\n4.isempty")
 
     def push(self,data):

@@ -14,13 +14,13 @@ class Queue:
         self.queueList = list()
     def enqueue(self,data):
         if Queue.size == Queue.maxsize:
-            print("###Queue is full",data,'can not be in this Queue###')
+            print("###04. Queue is full",data,'can not be in this 04. Queue###')
         else:
             self.queueList.append(data)
             Queue.size += 1
     def dequeue(self):
         if self.isempty():
-            return("NO ELEMENT in the Queue")
+            return("NO ELEMENT in the 04. Queue")
         else:
             removed = self.queueList[0]
             self.queueList = self.queueList[1:]
@@ -29,10 +29,10 @@ class Queue:
 
     def isfull(self):
         if Queue.size == Queue.maxsize:
-            print("This Queue is full")
+            print("This 04. Queue is full")
         else:
             x = Queue.maxsize - Queue.size
-            print("This Queue is not Full")
+            print("This 04. Queue is not Full")
             print(f"You have {x} space(s)")
 
     def isempty(self):
