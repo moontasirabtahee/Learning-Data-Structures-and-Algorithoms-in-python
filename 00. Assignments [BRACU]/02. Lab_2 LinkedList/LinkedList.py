@@ -8,7 +8,6 @@ class Node:
         self.next = next
 
 class MyList:
-    Head = None
     def __init__(self,a = None):
         self.Head = None
         if a:
